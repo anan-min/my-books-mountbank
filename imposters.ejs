@@ -1,0 +1,16 @@
+{
+ “imposters”: [{
+  “port”: “6969”, // port ที่เราจะให้ mountebank mock
+  “protocol”: “http”, // ให้ protocol http
+  “name”: “profiles”, // ตามใจ
+  “stubs”: [{
+   “predicates”: [ <% include profiles/success/success_predicates.ejs %> ],
+   “responses”: [ <% include profiles/success/success_response.ejs %> ]
+  },{
+   “predicates”: [ <% include profiles/fail/fail_predicates.ejs %> ],
+   “responses”: [ <% include profiles/fail/fail_response.ejs %> ]
+  },{
+   “responses”: [ <% include proxy.ejs %> ]
+  }]
+ }]
+}
