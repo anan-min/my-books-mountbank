@@ -1,0 +1,13 @@
+{
+  "equals": {
+    "method": "POST",
+    "path": "/payments/session"
+  },
+  "not": {
+    "exists": {
+      "headers": {
+        "X-Simulate-Error": true
+      }
+    }
+  }
+}

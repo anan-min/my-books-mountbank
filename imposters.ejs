@@ -1,16 +1,31 @@
 {
- “imposters”: [{
-  “port”: “6969”, // port ที่เราจะให้ mountebank mock
-  “protocol”: “http”, // ให้ protocol http
-  “name”: “profiles”, // ตามใจ
-  “stubs”: [{
-   “predicates”: [ <% include profiles/success/success_predicates.ejs %> ],
-   “responses”: [ <% include profiles/success/success_response.ejs %> ]
-  },{
-   “predicates”: [ <% include profiles/fail/fail_predicates.ejs %> ],
-   “responses”: [ <% include profiles/fail/fail_response.ejs %> ]
-  },{
-   “responses”: [ <% include proxy.ejs %> ]
+  "imposters": [{
+    "port": "6969",
+    "protocol": "http",
+    "name": "payment",
+    "stubs": [
+    
+      {
+        "predicates": [ <% include payment/session/error/session_error_predicate.ejs %> ],
+        "responses": [ <% include payment/session/error/session_error_response.ejs %> ]
+      },
+      {
+        "predicates": [ <% include payment/session/success/session_success_predicate.ejs %> ],
+        "responses": [ <% include payment/session/success/session_success_response.ejs %> ]
+      },
+
+      {
+        "predicates": [ <% include payment/pay/error/pay_error_predicate.ejs %> ],
+        "responses": [ <% include payment/pay/error/pay_error_response.ejs %> ]
+      },
+      {
+        "predicates": [ <% include payment/pay/success/pay_success_predicate.ejs %> ],
+        "responses": [ <% include payment/pay/success/pay_success_response.ejs %> ]
+      },
+      {
+        "predicates": [ <% include payment/pay/fail/pay_fail_predicate.ejs %> ],
+        "responses": [ <% include payment/pay/fail/pay_fail_response.ejs %> ]
+      }
+    ]
   }]
- }]
 }

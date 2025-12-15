@@ -1,0 +1,8 @@
+{"level":"info","message":"[mb:2525] mountebank v2.9.2 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2025-12-15T08:58:39.873Z"}
+{"level":"warn","message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","timestamp":"2025-12-15T08:58:39.871Z"}
+{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2025-12-15T08:58:39.892Z"}
+{"level":"info","message":"[http:6969 payment] Open for business...","timestamp":"2025-12-15T08:58:39.895Z"}
+{"level":"info","message":"[http:6969 payment] ::ffff:127.0.0.1:53193 => POST /payments/pay?sessionId=cs_test_0","timestamp":"2025-12-15T08:58:42.404Z"}
+{"level":"info","message":"[http:6969 payment] ::ffff:127.0.0.1:53194 => POST /payments/pay?sessionId=cs_test_9","timestamp":"2025-12-15T08:58:44.611Z"}
+{"level":"info","message":"[http:6969 payment] ::ffff:127.0.0.1:53228 => POST /payments/pay?sessionId=cs_test_9","timestamp":"2025-12-15T09:00:33.469Z"}
+{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2025-12-15T09:00:36.112Z"}

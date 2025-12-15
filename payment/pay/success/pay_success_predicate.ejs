@@ -1,0 +1,17 @@
+{
+  "and": [
+    {
+      "equals": {
+        "method": "POST",
+        "path": "/payments/pay"
+      }
+    },
+    {
+      "matches": {
+        "query": {
+          "sessionId": "cs_test_.*[02468]$"
+        }
+      }
+    }
+  ]
+}

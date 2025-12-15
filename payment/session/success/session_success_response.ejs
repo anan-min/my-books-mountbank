@@ -1,0 +1,12 @@
+{
+  "is": {
+    "statusCode": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "sessionId": "cs_test_<%= Math.random().toString(36).substring(2, 10) %>",
+      "url": "https://checkout.stripe.com/pay/cs_test_mock"
+    }
+  }
+}

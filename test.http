@@ -1,0 +1,35 @@
+
+
+## -----------------------
+## PAYMENT 
+## -----------------------
+
+### Create Payment Session success 
+POST http://localhost:6969/payments/session
+
+
+
+### Create Payment Session error 
+POST http://localhost:6969/payments/session
+X-Simulate-Error: true
+
+
+
+
+## -----------------------
+## PAY 
+## -----------------------
+
+### Create Payment Session success 
+POST http://localhost:6969/payments/pay?sessionId=cs_test_0
+
+
+
+### Create Payment Session fail
+POST http://localhost:6969/payments/pay?sessionId=cs_test_9
+
+
+
+### Create Payment Session error 
+POST http://localhost:6969/payments/pay
+X-Simulate-Error: true

@@ -1,0 +1,3 @@
+{
+  "inject": "function(request, state, logger) { var sessionId = request.query.sessionId || 'cs_test_unknown'; return { statusCode: 200, headers: { 'Content-Type': 'application/json' }, body: { sessionId: sessionId, status: 'success', message: 'Payment successful', url: 'https://checkout.stripe.com/pay/' + sessionId } }; }"
+}
