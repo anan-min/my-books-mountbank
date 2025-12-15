@@ -21,12 +21,12 @@ X-Simulate-Error: true
 ## -----------------------
 
 ### Create Payment Session success 
-POST http://localhost:6969/payments/pay?sessionId=cs_test_0
+POST http://localhost:6969/payments/pay?sessionId=cs_test_92963175-f0e6-4344-8ea1-09d9388825aa
 
 
 
 ### Create Payment Session fail
-POST http://localhost:6969/payments/pay?sessionId=cs_test_9
+POST http://localhost:6969/payments/pay?sessionId=cs_test_92963175-f0e6-4344-8ea1-09d9388825a4
 
 
 
