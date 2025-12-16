@@ -1,11 +1,7 @@
-{"level":"info","message":"[mb:2525] mountebank v2.9.2 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2025-12-15T09:07:14.114Z"}
-{"level":"warn","message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","timestamp":"2025-12-15T09:07:14.113Z"}
-{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2025-12-15T09:07:14.131Z"}
-{"level":"info","message":"[http:6969 payment] Open for business...","timestamp":"2025-12-15T09:07:14.133Z"}
-{"level":"info","message":"[http:6969 payment] ::ffff:127.0.0.1:53345 => POST /payments/session","timestamp":"2025-12-15T09:07:21.739Z"}
-{"level":"info","message":"[http:6969 payment] ::ffff:127.0.0.1:53346 => POST /payments/session","timestamp":"2025-12-15T09:07:25.087Z"}
-{"level":"info","message":"[http:6969 payment] ::ffff:127.0.0.1:53347 => POST /payments/session","timestamp":"2025-12-15T09:07:27.216Z"}
-{"level":"info","message":"[http:6969 payment] ::ffff:127.0.0.1:53348 => POST /payments/session","timestamp":"2025-12-15T09:07:27.955Z"}
-{"level":"info","message":"[http:6969 payment] ::ffff:127.0.0.1:53349 => POST /payments/session","timestamp":"2025-12-15T09:07:28.530Z"}
-{"level":"info","message":"[http:6969 payment] ::ffff:127.0.0.1:53357 => POST /payments/pay?sessionId=cs_test_92963175-f0e6-4344-8ea1-09d9388825aa","timestamp":"2025-12-15T09:07:46.735Z"}
-{"level":"info","message":"[http:6969 payment] ::ffff:127.0.0.1:53364 => POST /payments/pay?sessionId=cs_test_92963175-f0e6-4344-8ea1-09d9388825a4","timestamp":"2025-12-15T09:07:53.878Z"}
+{"level":"info","message":"[mb:2525] mountebank v2.9.2 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2025-12-16T07:10:53.687Z"}
+{"level":"warn","message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","timestamp":"2025-12-16T07:10:53.685Z"}
+{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2025-12-16T07:10:53.709Z"}
+{"level":"info","message":"[http:6969 payment] Open for business...","timestamp":"2025-12-16T07:10:53.712Z"}
+{"level":"info","message":"[http:6969 payment] ::ffff:127.0.0.1:51760 => POST /payments/session","timestamp":"2025-12-16T07:10:55.884Z"}
+{"level":"info","message":"[http:6969 payment] ::ffff:127.0.0.1:51761 => POST /payments/session","timestamp":"2025-12-16T07:10:57.535Z"}
+{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2025-12-16T07:16:12.641Z"}

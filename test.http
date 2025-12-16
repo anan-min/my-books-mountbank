@@ -7,11 +7,27 @@
 ### Create Payment Session success 
 POST http://localhost:6969/payments/session
 
+Content-Type: application/json
+{
+  "orderId": "693691f884f2437364f43f5c",
+  "currency": "THB",
+  "amount": 123
+}
+
 
 
 ### Create Payment Session error 
 POST http://localhost:6969/payments/session
 X-Simulate-Error: true
+
+Content-Type: application/json
+{
+  "orderId": "693691f884f2437364f43f5c",
+  "currency": "THB",
+  "amount": 123
+}
+
+
 
 
 
